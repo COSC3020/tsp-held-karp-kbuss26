@@ -47,3 +47,15 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+### Response
+[Incomplete - Do Not Evalutate]
+The worst-case asymptotic time-complexity of this implementation fits in... 
+
+As for memory complexity, we use a cache to store the distance to each city. 
+Because the cache clears for every recursive call of the algorithm, we can
+see that the length of the cache does not exceed the length of the cardinality of cities.
+Therefore, the memory complexity exists as $M(n) \in \Theta(|V|)$.
+
+### Sources
+- https://www.shiksha.com/online-courses/articles/the-traveling-salesman-problem/
