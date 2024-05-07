@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/KdVea3AG)
 # Traveling Salesperson Problem -- Held-Karp Algorithm
 
 This exercise is about the Traveling Salesperson Problem I mentioned in the
@@ -46,3 +47,15 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+### Response
+[Incomplete - Do Not Evalutate]
+The worst-case asymptotic time-complexity of this implementation fits in... 
+
+As for memory complexity, we use a cache to store the distance to each city. 
+Because the cache clears for every recursive call of the algorithm, we can
+see that the length of the cache does not exceed the length of the cardinality of cities.
+Therefore, the memory complexity exists as $M(n) \in \Theta(|V|)$.
+
+### Sources
+- https://www.shiksha.com/online-courses/articles/the-traveling-salesman-problem/
